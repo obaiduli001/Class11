@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-website {
+    width: 1024px;
+    margin: auto;
+}
+
+/* Manu style section  */
+
+.manu-div{
+height: 150px;
+width: 100%;
+background-color: rgb(12, 22, 42);
+position: relative;   
+}
+.manu-list {
+    width: 272px;
+    margin: auto;
+
+}
+.manu-list li {
+    display: inline-block;
+    background-color: rgb(164, 109, 6);
+    padding: 5px 10px;
+    height: 16px;
+    width: 45px;
+}
+.manu-list li a{
+    text-decoration: none;
+    color: rgb(12, 22, 42);
+
+}
+.manu-list ul{
+padding-top: 50px;
+}
+.manu-div1 {
+    height: 16px;
+    width: 5px;
+    background-color: white;
+    margin-left: 405px;
+}
+.angle1 {
+    margin-left: -2px;
+    color: beige;
+    height: 10px;
+    width: 8px;
+    padding-top: 16px;
+}
+
+
+.manu-div2{
+    height: 16px;
+    width: 5px;
+    background-color: white;
+    margin: auto;
+}
+.angledot2{
+    color: bisque;
+    width: 8px;
+    margin: auto;
+
+}
+.angle-2 {
+    position: absolute;
+    left: 472px;
+    top: 76px;
+}
+.angle-3 {
+    position: absolute;
+    left: 540px;
+    top: 77px;
+}
+.manu-div3{
+    height: 16px;
+    width: 5px;
+    background-color: white;
+    margin: auto;
+}
+.angledot3{
+    color: bisque;
+    width: 8px;
+    margin: auto;
+}
+.angle-4 {
+    position: absolute;
+    left: 611px;
+    top: 77px;
+}
+.manu-div4{
+    height: 16px;
+    width: 5px;
+    background-color: white;
+    margin: auto;
+}
+.angledot4{
+    color: bisque;
+    width: 8px;
+    margin: auto;
+}
+
+/* This is container Section  */
+
+.container{
+    background-color: #ddd;
+    /* margin-bottom: 20px; */
+}
+.container-title{
+    color: rgb(18, 79, 18);
+    border-bottom: 3px dashed rgb(6, 79, 6);
+    text-align: center;
+    font-size: 80px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+.service-1 {
+    height: 272px;
+    width: 234px;
+    margin-left: 50px;
+    margin-top: 35px;
+    box-shadow: 0px 0px 33px;
+    border-radius: 19px;
+    text-align: center;
+    padding: 10px;  
+    transition: .5s;
+    display: inline-block;
+}
+.fa-desktop {
+    font-size: 84px;
+    color: rgb(19, 94, 19);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.dddd{
+    margin-bottom: 10px;
+    color: rgb(136, 19, 19);
+}
+.service-1:hover {
+background-color: rgb(103, 103, 254);}
+
+/* service-2 section  */
+.service-2{
+    height: 272px;
+    width: 234px;
+    margin-left: 50px;
+    margin-top: 35px;
+    box-shadow: 0px 0px 33px;
+    border-radius: 19px;
+    text-align: center;
+    padding: 10px;  
+    transition: .5s;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.fa-bullhorn{
+    font-size: 84px;
+    color: rgb(19, 94, 19);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.pera-2{
+    margin-bottom: 10px;
+    color: rgb(136, 19, 19);
+}
+.service-2:hover {
+    background-color: rgb(103, 103, 254);}
+    
+    /* Service section 3  */
+
+
+.service-3{
+ height: 272px;
+    width: 234px;
+    margin-left: 50px;
+    margin-top: 35px;
+    box-shadow: 0px 0px 33px;
+    border-radius: 19px;
+    text-align: center;
+    padding: 10px;  
+    transition: .5s;
+    display: inline-block;
+}
+.fa-pen-ruler{
+    font-size: 84px;
+    color: rgb(19, 94, 19);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.pera-3{
+    margin-bottom: 10px;
+    color: rgb(136, 19, 19);
+}
+.service-3:hover {
+    background-color: rgb(103, 103, 254);}
+
+    /* This is intro Section  */
+    .main-itro-div{
+     background-color: rgb(160, 74, 240);
+     position: relative;
+     height: 500px;
+     /* margin-top: 10px; */
+    }
+
+    .circle-1 {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(33, 32, 32);
+        border-radius: 50%;
+        border: 5px dotted rgb(115, 41, 14);
+        display: inline-block;
+        position: absolute;
+        left:200px;
+        top: 150px;
+    }
+    .circle-2{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(33, 32, 32);
+        border-radius: 50%;
+        border: 5px dotted rgb(115, 41, 14);
+        display: inline-block;
+        position: absolute;
+        left:350px;
+        top: 50px;
+    }
+    .circle-3{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(33, 32, 32);
+        border-radius: 50%;
+        border: 5px dotted rgb(115, 41, 14);
+        display: inline-block;
+        position: absolute;
+        left:550px;
+        top: 50px;
+    }
+    .circle-4{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(33, 32, 32);
+        border-radius: 50%;
+        border: 5px dotted rgb(115, 41, 14);
+        display: inline-block;
+        position: absolute;
+        left:700px;
+        top: 150px;
+    }
+
+    /* This is contact Section  */
+
+    .circle-5 {
+        height: 100px;
+        width: 100px;
+        background-image: url("https://i.ibb.co/QD8Vf6y/jillur.jpg");
+        background-size: cover;
+        border-radius: 50%;
+        border: 5px solid rgb(216, 61, 4);
+        display: inline-block;
+        position: relative;
+        position: absolute;
+        left: 451px;
+        top: 150px;
+    }
+
+    .intro-head {
+        position: absolute;
+        right: -5px;
+        top: 55px;
+        margin-left: 21px;
+    }
+
+    .hover-inner {
+        height: 0;
+        width: 0;
+        font-size: 17px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+        background: rgba(224, 70, 70, 0.5);
+        visibility: hidden;
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .circle-5:hover .hover-inner{
+        height: 101px;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+
+    .contact-div {
+        position: absolute;
+        right: 427px;
+        top: 268px;
+    }
+    #name {
+        border: 2px solid rgb(209, 204, 204);
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 23px;
+        margin-bottom: 10px;
+    }
+    #email{
+        border: 2px solid rgb(209, 204, 204);
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 23px;
+        margin-bottom: 10px;
+    }
+    #submit{
+        margin-left: 60px;
+        border: 2px solid rgb(14, 14, 14);
+        border-radius: 15px;
+        padding: 5px;
+       background-color: rgb(160, 74, 240);
+        margin-bottom: 10px;
+    }
+    .submit:hover {
+        cursor: pointer;
+        background-color: rgb(140, 248, 9);
+    }
+    .footer-div{
+        height: 100px;
+        width: 100%;
+        background-color:  rgb(33, 32, 32);
+    }
+    .footer-heading{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+    }
